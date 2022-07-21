@@ -15,3 +15,9 @@ Curriculum Vitae theme by cusmedroid
 > You must be 2 base collection or column2
 
 **[DEMO](https://cusmedroid.github.io/cv/sahrul)**
+
+# Magenta Theme
+![CV Magenta Theme By CusMeDroid](https://cusmedroid.github.io/cv/mohjakayulianto/images/ScreenShoot.jpg)
+> You must be 2 base collection or column2
+
+**[DEMO](https://cusmedroid.github.io/cv/mohjakayulianto)**
