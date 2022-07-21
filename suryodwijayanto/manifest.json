@@ -1,0 +1,32 @@
+{
+  "short_name": "Suryo DwiJayanto",
+  "name": "Curriculum Vitae Suryo DwiJayanto, Theme by CusMeDroid.",
+  "icons": [
+    {
+      "src": "/images/head.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://cusmedroid.github.io",
+  "display": "standalone",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Curriculum Vitae",
+      "short_name": "Suryo DwiJayanto",
+      "description": "Curriculum Vitae Suryo DwiJayanto",
+      "url": "https://cusmedroid.github.io/cv/suryodwijayanto",
+      "icons": [{ "src": "/images/head.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Curriculum Vitae Suryo DwiJayanto, Theme by CusMeDroid.",
+  "screenshots": [
+    {
+      "src": "/images/ScreenShoot.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ]
+}
+  
