@@ -32,15 +32,12 @@ You can download/clone my repo
 # Choose a theme you like :
 > **[Orange Theme](https://github.com/CusMeDroid/cv/tree/main/suryodwijayanto)**
 
-> git clone https://github.com/CusMeDroid/cv/tree/main/suryodwijayanto
-
 > **[Violet Theme](https://github.com/CusMeDroid/cv/tree/main/sahrul)**
-
-> git clone https://github.com/CusMeDroid/cv/tree/main/sahrul
 
 > **[Magenta Theme](https://github.com/CusMeDroid/cv/tree/main/mohjakayulianto)**
 
-> git clone https://github.com/CusMeDroid/cv/tree/main/mohjakayulianto
+# Clone Repo
+> git clone https://github.com/CusMeDroid/cv.git
 
 # REPLACING
 ### Manifest
