@@ -93,7 +93,7 @@ Confused?
 
 [WhatsApp](https://api.whatsapp.com/send/?phone=%2B6281932671715) Or [Email](mailto:iyortml@gmail.com)
 
-# Constribute?
+# Contribution?
 ## Come Here!
 Upload your directory on this, and please the directory name is your name!
 
