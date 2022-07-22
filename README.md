@@ -86,18 +86,8 @@ What do you like song? you can enter it here! use a name without spaces, or chan
         artwork: [{
         
             src: 'https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/07/01/1152666922.jpg', // URL cover songs, you can include on images/name_cover.jpg whatever!
-
-Confused?
-
-## Contact Me :
-
-[WhatsApp](https://api.whatsapp.com/send/?phone=%2B6281932671715) Or [Email](mailto:iyortml@gmail.com)
-
-# Contribution?
-## Come Here!
-Upload your directory on this, and please the directory name is your name!
-
-You added a new style? we need additional classes for the background color and the image in the header.
+            
+> You added a new style? we need additional classes for the background, color and the image in the header.
 ### Example :
 // Button Music Color
 
@@ -142,6 +132,16 @@ You added a new style? we need additional classes for the background color and t
 }
 
 You can see on index file className.
+
+Confused?
+
+## Contact Me :
+
+[WhatsApp](https://api.whatsapp.com/send/?phone=%2B6281932671715) Or [Email](mailto:iyortml@gmail.com)
+
+# Contribution?
+## Come Here!
+Upload your directory on this, and please the directory name is your name!
 
 [<img alt="Donate Free!" width="120px" src="https://cusmedroid.github.io/android-studio/image/donateme.jpg" />](https://paypal.me/iyortml)
 [<img alt="Donate Free!" width="120px" src="https://cusmedroid.github.io/android-studio/image/webme.jpg" />](http://cusmedroid.is-best.net)
