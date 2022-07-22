@@ -97,5 +97,51 @@ Confused?
 ## Come Here!
 Upload your directory on this, and please the directory name is your name!
 
+You added a new style? we need additional classes for the background color and the image in the header.
+### Example :
+// Button Music Color
+
+.orange-music-btn-color {
+
+    color: #FF6A00 !important;
+    
+}
+
+// Background
+
+.orenge-grad-bg {
+
+  background: linear-gradient(#FF6A00, #CB9557);
+  
+}
+
+// Button Background
+
+.orenge-grad-bg-btn {
+
+  background: linear-gradient(#FF6A00, #CB9557);
+
+}
+
+.orenge-grad-bg-btn:hover {
+  
+  background: linear-gradient(#CB9557, #FF6A00);
+
+}
+
+// Background image
+
+.orange-bg-img {
+
+    background: url(../images/bg/orange-bground.jpg);
+    
+    background-repeat: no-repeat;
+    
+    background-size: 100% auto;
+
+}
+
+You can see on index file className.
+
 [<img alt="Donate Free!" width="120px" src="https://cusmedroid.github.io/android-studio/image/donateme.jpg" />](https://paypal.me/iyortml)
 [<img alt="Donate Free!" width="120px" src="https://cusmedroid.github.io/android-studio/image/webme.jpg" />](http://cusmedroid.is-best.net)
