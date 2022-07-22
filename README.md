@@ -21,3 +21,77 @@ Curriculum Vitae theme by cusmedroid
 > You must be 3 base collection or column3
 
 **[DEMO](https://cusmedroid.github.io/cv/mohjakayulianto)**
+
+# For Dev
+Are you a developer?
+
+I want to explain a little for those of you who want to create a look like this.
+
+You can download/clone my repo
+
+# Choose a theme you like :
+> **[Orange Theme](https://github.com/CusMeDroid/cv/tree/main/suryodwijayanto)**
+
+> git clone https://github.com/CusMeDroid/cv/tree/main/suryodwijayanto
+
+> **[Violet Theme](https://github.com/CusMeDroid/cv/tree/main/sahrul)**
+
+> git clone https://github.com/CusMeDroid/cv/tree/main/sahrul
+
+> **[Magenta Theme](https://github.com/CusMeDroid/cv/tree/main/mohjakayulianto)**
+
+> git clone https://github.com/CusMeDroid/cv/tree/main/mohjakayulianto
+
+# REPLACING
+### Manifest
+Replace the owner's name with your name, and do not remove/change any more!
+
+> Example
+
+{
+
+  "short_name": "Suryo DwiJayanto", // Replace Your Name
+  
+  "name": "Curriculum Vitae Suryo DwiJayanto, Theme by CusMeDroid.",
+  
+  "icons": [
+  
+    {
+    
+      "src": "/cv/suryodwijayanto/images/head.png", // Replace name by directory
+      
+And the name so on.
+
+### Index
+Replace to the owner's name with your name, and all about you.
+
+### Images
+Replace the picture if no change to the collection in the index you can just arrive with the same name.
+
+### Music
+What do you like song? you can enter it here! use a name without spaces, or change the spaces with underscroe.
+
+> And check the file on index
+
+`<audio class="denone" id="myAudio" controls loop>`
+
+            <source src="music/THREESIXTY_JAWABAN_DIBALIK_SENYUMAN.mp3" type="audio/mpeg"> // Replace with the song you entered
+            
+> On jquery
+
+        artist : 'THREESIXTY', // Artist name
+
+        title: 'JAWABAN DIBALIK SENYUMAN', // Title songs
+        
+        artwork: [{
+        
+            src: 'https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/07/01/1152666922.jpg', // URL cover songs, you can include on images/name_cover.jpg whatever!
+
+Confused?
+
+## Contact Me :
+
+[WhatsApp](https://api.whatsapp.com/send/?phone=%2B6281932671715) Or [Email](mailto:iyortml@gmail.com)
+
+[<img alt="Donate Free!" width="120px" src="https://cusmedroid.github.io/android-studio/image/donateme.jpg" />](https://paypal.me/iyortml)
+[<img alt="Donate Free!" width="120px" src="https://cusmedroid.github.io/android-studio/image/webme.jpg" />](http://cusmedroid.is-best.net)
