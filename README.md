@@ -66,7 +66,7 @@ Replace to the owner's name with your name, and all about you.
 Replace the picture if no change to the collection in the index you can just arrive with the same name.
 
 ### Music
-What do you like song? you can enter it here! use a name without spaces, or change the spaces with underscroe.
+What do you like song? you can enter it here! use a name without spaces, or change the spaces with underscore.
 
 > And check the file on index
 
@@ -96,7 +96,7 @@ What do you like song? you can enter it here! use a name without spaces, or chan
 
 // Background
 
-.orenge-grad-bg {
+.orange-grad-bg {
 
   background: linear-gradient(#FF6A00, #CB9557);
   
@@ -104,13 +104,13 @@ What do you like song? you can enter it here! use a name without spaces, or chan
 
 // Button Background
 
-.orenge-grad-bg-btn {
+.orange-grad-bg-btn {
 
   background: linear-gradient(#FF6A00, #CB9557);
 
 }
 
-.orenge-grad-bg-btn:hover {
+.orange-grad-bg-btn:hover {
   
   background: linear-gradient(#CB9557, #FF6A00);
 
