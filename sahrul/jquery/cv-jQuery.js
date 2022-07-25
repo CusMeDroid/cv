@@ -27,7 +27,7 @@ if ('mediaSession' in navigator) {
 
 /* Birthday */
 var today = new Date();
-var birthday = new Date(1994, 06, 07);
+var birthday = new Date(1997, 06, 16);
 var year = 0;
 if (today.getMonth() < birthday.getMonth()) {
     year = 1;
