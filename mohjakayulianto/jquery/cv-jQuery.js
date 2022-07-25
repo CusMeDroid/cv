@@ -9,6 +9,10 @@ function submitFunc() {
     }
 }
 
+function mPdf() {
+    window.open('https://github.com/CusMeDroid/cv/raw/main/mohjakayulianto/mohjakayulianto.pdf');
+}
+
 if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
         artist : 'Denny Caknan.mp3',
