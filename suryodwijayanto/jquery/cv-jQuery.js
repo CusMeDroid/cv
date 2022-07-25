@@ -10,7 +10,7 @@ function submitFunc() {
 }
 
 function mPdf() {
-    window.open('https://github.com/CusMeDroid/cv/raw/main/suryodwijayanto/suryodwiJayanto.pdf');
+    window.open('https://github.com/CusMeDroid/cv/raw/main/suryodwijayanto/suryodwijayanto.pdf');
 }
 
 if ('mediaSession' in navigator) {
