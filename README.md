@@ -75,6 +75,7 @@ Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 
 <iframe id="music-video" src="https://www.youtube.com/embed/SlPhMPnQ58k?enablejsapi=1&html5=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
 
+
 > You added a new style? we need additional classes for the background, color and the image in the header.
 ### Example :
 // Button Music Color
