@@ -13,18 +13,6 @@ function mPdf() {
     window.open('https://github.com/CusMeDroid/cv/raw/main/mohjakayulianto/mohjakayulianto.pdf');
 }
 
-if ('mediaSession' in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-        artist : 'Denny Caknan.mp3',
-        title: 'SATRU 2.mp3',
-        artwork: [{
-            src: 'https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/07/01/1152666922.jpg',
-            sizes: '320x180',
-            type: 'image/png'
-        }]
-    })
-}
-
 /* Birthday */
 var today = new Date();
 var birthday = new Date(1997, 06, 16);
