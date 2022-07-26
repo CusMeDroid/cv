@@ -317,10 +317,10 @@
         <iframe id="music-video" src="https://www.youtube.com/embed/DYS4gtLX9qw?enablejsapi=1&html5=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
 
         <div class='deksmus'>
-            <a onclick='playAudio()' title='Play' id='musicpl' class='orange'>
+            <a title='Play' id='musicpl' class='orange'>
                 <i class='fa fa-play mus' aria-hidden='true'></i>
             </a>
-            <a onClick='pauseAudio()' title='Pause' id='musicpa'>
+            <a title='Pause' id='musicpa'>
                 <i class='fa fa-pause mus' aria-hidden='true'></i>
             </a>
         </div>
@@ -330,8 +330,8 @@
                 <div class='column-header'><a href='#' title='Home' class='bbtn'><i class='fa fa-home' aria-hidden='true'></i></a></div>
                 <div class='column-header'><a href='#collection' title='Collection' class='bbtn'><i class='fa fa-picture-o' aria-hidden='true'></i></a></div>
                 <div class='column-header'><a href='#like' title='Like' class='bbtn'><i class='fa fa-heart' aria-hidden='true'></i></a></div>
-                <div class='column-header' onclick='playAudio()' id='musicp2'><a title='Play' class='bbtn'><i class='fa fa-play' aria-hidden='true'></i></a></div>
-                <div class='column-header' onClick='pauseAudio()' id='musicpa2'><a title='Pause' class='bbtn'><i class='fa fa-pause' aria-hidden='true'></i></a></div>
+                <div class='column-header' id='musicp2'><a title='Play' class='bbtn'><i class='fa fa-play' aria-hidden='true'></i></a></div>
+                <div class='column-header' id='musicpa2'><a title='Pause' class='bbtn'><i class='fa fa-pause' aria-hidden='true'></i></a></div>
             </div>
         </div>
 
@@ -352,6 +352,48 @@
             <a title='Contact' href='#contact'>Contact</a>
             <a title='Save PDF' onclick='mPdf()'>Save PDF</a>
         </div>
+        
+        <script type="text/javascript">
+            /* Embed play/pause */
+            var player;
+
+            function onYouTubePlayerAPIReady() {
+                player = new YT.Player('music-video', {
+                    events: {
+                        // call this function when player is ready to use
+                        'onReady': onPlayerReady
+                    }
+                });
+            }
+
+            function onPlayerReady(event) {
+                var playButton = document.getElementById("musicpl");
+                var pauseButton = document.getElementById("musicpa");
+                var playButton2 = document.getElementById("musicp2");
+                var pauseButton2 = document.getElementById("musicpa2");
+                playButton.addEventListener("click", function() {
+                    player.playVideo();
+                    playButton.style.display = "none";
+                    pauseButton.style.display = "block";
+                    playButton2.style.display = "none";
+                    pauseButton2.style.display = "block";
+                });
+                pauseButton.addEventListener("click", function() {
+                    player.pauseVideo();
+                    playButton.style.display = "block";
+                    pauseButton.style.display = "none";
+                    playButton2.style.display = "block";
+                    pauseButton2.style.display = "none";
+                });
+
+            }
+
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/player_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            /* End embed play/pause */
+        </script>
         
         <script type='text/javascript' src='https://cusmedroid.github.io/js/disclaimer.js'></script>
         <script type='text/javascript' src='https://cusmedroid.github.io/js/cv-jQuery.js'></script>
