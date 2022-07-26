@@ -69,21 +69,12 @@ Replace the picture if no change to the collection in the index you can just arr
 What do you like song? you can enter it here! use a name without spaces, or change the spaces with underscore.
 
 > And check the file on index
+Embed by youtube :
 
-`<audio class="denone" id="myAudio" controls loop>`
+Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 
-            <source src="music/THREESIXTY_JAWABAN_DIBALIK_SENYUMAN.mp3" type="audio/mpeg"> // Replace with the song you entered
-            
-> On jquery
+<iframe id="music-video" src="https://www.youtube.com/embed/SlPhMPnQ58k?enablejsapi=1&html5=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
 
-        artist : 'THREESIXTY', // Artist name
-
-        title: 'JAWABAN DIBALIK SENYUMAN', // Title songs
-        
-        artwork: [{
-        
-            src: 'https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/07/01/1152666922.jpg', // URL cover songs, you can include on images/name_cover.jpg whatever!
-            
 > You added a new style? we need additional classes for the background, color and the image in the header.
 ### Example :
 // Button Music Color
