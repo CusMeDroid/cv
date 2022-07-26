@@ -66,7 +66,7 @@ Replace to the owner's name with your name, and all about you.
 Replace the picture if no change to the collection in the index you can just arrive with the same name.
 
 ### Music
-What do you like song? you can enter it here! use a name without spaces, or change the spaces with underscore.
+What do you like song? you can enter it here!
 
 > And check the file on index
 Embed by youtube :
