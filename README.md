@@ -45,6 +45,7 @@ Replace the owner's name with your name, and do not remove/change any more!
 
 > Example
 
+``` r
 {
 
   "short_name": "Suryo DwiJayanto", // Replace Your Name
@@ -56,7 +57,7 @@ Replace the owner's name with your name, and do not remove/change any more!
     {
     
       "src": "/cv/suryodwijayanto/images/head.png", // Replace name by directory
-      
+```
 And the name so on.
 
 ### Index
@@ -73,28 +74,31 @@ Embed by youtube :
 
 Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 
-`<iframe id="music-video" src="https://www.youtube.com/embed/SlPhMPnQ58k?enablejsapi=1&html5=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>`
+``` r
+  <iframe id="music-video" src="https://www.youtube.com/embed/SlPhMPnQ58k?enablejsapi=1&html5=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
+```
 
 > You added a new style? we need additional classes for the background, color and the image in the header.
 ### Example :
 // Button Music Color
-
+``` r
 .orange-music-btn-color {
 
     color: #FF6A00 !important;
     
 }
+```
 
 // Background
-
+``` r
 .orange-grad-bg {
 
   background: linear-gradient(#FF6A00, #CB9557);
   
 }
-
+```
 // Button Background
-
+``` r
 .orange-grad-bg-btn {
 
   background: linear-gradient(#FF6A00, #CB9557);
@@ -106,9 +110,9 @@ Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
   background: linear-gradient(#CB9557, #FF6A00);
 
 }
-
+```
 // Background image
-
+``` r
 .orange-bg-img {
 
     background: url(../images/bg/orange-bground.jpg);
@@ -118,7 +122,7 @@ Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
     background-size: 100% auto;
 
 }
-
+```
 You can see on index file className.
 
 Confused?
