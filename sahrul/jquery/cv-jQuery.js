@@ -13,18 +13,6 @@ function mPdf() {
     window.open('https://github.com/CusMeDroid/cv/raw/main/sahrul/sahrul.pdf');
 }
 
-if ('mediaSession' in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-        artist : 'Maroon 5',
-        title: 'Memories',
-        artwork: [{
-            src: 'https://1.bp.blogspot.com/-rIK1fSxr8Lw/Xb9PWSeAe2I/AAAAAAAAIfA/BU7xtpm35Jg3HCmmaIbD1RUMODHS2DgpACLcBGAsYHQ/s640/Memories.jpg',
-            sizes: '320x180',
-            type: 'image/png'
-        }]
-    })
-}
-
 /* Birthday */
 var today = new Date();
 var birthday = new Date(1997, 06, 12);
