@@ -13,6 +13,7 @@ function mPdf() {
     window.open('https://github.com/CusMeDroid/cv/raw/main/suryodwijayanto/suryodwijayanto.pdf');
 }
 
+/* Info/Notification Music Audio
 if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
         artist : 'THREESIXTY',
@@ -24,6 +25,7 @@ if ('mediaSession' in navigator) {
         }]
     })
 }
+*/
 
 /* Birthday */
 var today = new Date();
