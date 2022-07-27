@@ -102,7 +102,7 @@ Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 
 // Button Background
 
-``` r
+```
 .orange-grad-bg-btn {
 
   background: linear-gradient(#FF6A00, #CB9557);
