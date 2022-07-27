@@ -29,7 +29,7 @@ I want to explain a little for those of you who want to create a look like this.
 
 You can download/clone my repo
 
-# Choose a theme you like :
+# Choose a theme :
 > **[Orange Theme](https://github.com/CusMeDroid/cv/tree/main/suryodwijayanto)**
 
 > **[Violet Theme](https://github.com/CusMeDroid/cv/tree/main/sahrul)**
@@ -74,14 +74,15 @@ Embed by youtube :
 
 Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 
-``` r
+```
   <iframe id="music-video" src="https://www.youtube.com/embed/SlPhMPnQ58k?enablejsapi=1&html5=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
 ```
 
 > You added a new style? we need additional classes for the background, color and the image in the header.
 ### Example :
 // Button Music Color
-``` r
+
+```
 .orange-music-btn-color {
 
     color: #FF6A00 !important;
@@ -90,14 +91,17 @@ Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 ```
 
 // Background
-``` r
+
+```
 .orange-grad-bg {
 
   background: linear-gradient(#FF6A00, #CB9557);
   
 }
 ```
+
 // Button Background
+
 ``` r
 .orange-grad-bg-btn {
 
@@ -112,7 +116,8 @@ Replace https://www.youtube.com/embed/SlPhMPnQ58k with music url you choose
 }
 ```
 // Background image
-``` r
+
+```
 .orange-bg-img {
 
     background: url(../images/bg/orange-bground.jpg);
