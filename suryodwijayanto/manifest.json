@@ -13,7 +13,7 @@
   "scope": "/",
   "id": "cv/suryodwijayanto/",
   "start_url": "https://www.cusmedroid.ink/",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "any",
   "theme_color": "orange",
   "background_color": "white",
