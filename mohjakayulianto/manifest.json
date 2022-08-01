@@ -1,6 +1,6 @@
 {
   "lang": "en",
-  "dir": "ltr",
+  "dir": "auto",
   "name": "Curriculum Vitae Moh Jaka Yulianto, Theme by CusMeDroid.",
   "short_name": "Moh Jaka Yulianto",
   "icons": [
@@ -13,8 +13,8 @@
   "scope": "/",
   "id": "cv/mohjakayulianto/",
   "start_url": "https://www.cusmedroid.ink/",
-  "display": "fullscreen",
-  "orientation": "landscape",
+  "display": "standalone",
+  "orientation": "any",
   "theme_color": "magenta",
   "background_color": "white",
   "shortcuts": [
