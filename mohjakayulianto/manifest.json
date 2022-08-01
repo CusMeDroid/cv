@@ -1,32 +1,37 @@
 {
-  "short_name": "Moh Jaka Yulianto",
+  "lang": "en",
+  "dir": "ltr",
   "name": "Curriculum Vitae Moh Jaka Yulianto, Theme by CusMeDroid.",
+  "short_name": "Moh Jaka Yulianto",
   "icons": [
     {
-      "src": "/cv/mohjakayulianto/images/head.png",
+      "src": "images/head.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "200x200"
     }
   ],
-  "start_url": "https://cusmedroid.github.io",
-  "display": "standalone",
   "scope": "/",
+  "id": "cv/mohjakayulianto/",
+  "start_url": "https://www.cusmedroid.ink/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "orange",
+  "background_color": "white",
   "shortcuts": [
     {
       "name": "Curriculum Vitae",
       "short_name": "Moh Jaka Yulianto",
       "description": "Curriculum Vitae Moh Jaka Yulianto",
-      "url": "https://cusmedroid.github.io/cv/mohjakayulianto",
-      "icons": [{ "src": "/images/head.png", "sizes": "192x192" }]
+      "url": "https://www.cusmedroid.ink/cv/mohjakayulianto/",
+      "icons": [{ "src": "images/head.png", "sizes": "200x200" }]
     }
   ],
   "description": "Curriculum Vitae Moh Jaka Yulianto, Theme by CusMeDroid.",
   "screenshots": [
     {
-      "src": "/images/ScreenShoot.jpg",
+      "src": "images/ScreenShoot.jpg",
       "type": "image/jpg",
       "sizes": "512x512"
     }
   ]
 }
-  
