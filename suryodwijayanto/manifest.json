@@ -1,32 +1,37 @@
 {
-  "short_name": "Suryo DwiJayanto",
+  "lang": "en",
+  "dir": "ltr",
   "name": "Curriculum Vitae Suryo DwiJayanto, Theme by CusMeDroid.",
+  "short_name": "Suryo DwiJayanto",
   "icons": [
     {
       "src": "/cv/suryodwijayanto/images/head.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
   ],
-  "start_url": "https://cusmedroid.github.io/cv/suryodwijayanto",
-  "display": "standalone",
   "scope": "/",
+  "id": "myCopyright",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "white",
+  "background_color": "gray",
   "shortcuts": [
     {
       "name": "Curriculum Vitae",
       "short_name": "Suryo DwiJayanto",
       "description": "Curriculum Vitae Suryo DwiJayanto",
-      "url": "https://cusmedroid.github.io/cv/suryodwijayanto",
-      "icons": [{ "src": "/images/head.png", "sizes": "192x192" }]
+      "url": "https://www.cusmedroid.ink/",
+      "icons": [{ "src": "images/head.png", "sizes": "256x256" }]
     }
   ],
   "description": "Curriculum Vitae Suryo DwiJayanto, Theme by CusMeDroid.",
   "screenshots": [
     {
-      "src": "/images/ScreenShoot.jpg",
+      "src": "images/ScreenShoot.jpg",
       "type": "image/jpg",
-      "sizes": "512x512"
+      "sizes": "360x360"
     }
   ]
 }
-  
