@@ -11,12 +11,11 @@
     }
   ],
   "scope": "/",
-  "id": "myCopyright",
-  "start_url": "https://www.cusmedroid.ink/",
+  "start_url": "https://www.cusmedroid.ink/cv/suryodwijayanto/",
   "display": "fullscreen",
   "orientation": "landscape",
-  "theme_color": "white",
-  "background_color": "gray",
+  "theme_color": "orange",
+  "background_color": "white",
   "shortcuts": [
     {
       "name": "Curriculum Vitae",
