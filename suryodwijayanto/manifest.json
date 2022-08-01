@@ -5,13 +5,14 @@
   "short_name": "Suryo DwiJayanto",
   "icons": [
     {
-      "src": "/cv/suryodwijayanto/images/head.png",
+      "src": "cv/suryodwijayanto/images/head.png",
       "type": "image/png",
       "sizes": "200x200"
     }
   ],
   "scope": "/",
-  "start_url": "https://www.cusmedroid.ink/cv/suryodwijayanto/",
+  "id": "cv/suryodwijayanto/",
+  "start_url": "https://www.cusmedroid.ink/",
   "display": "fullscreen",
   "orientation": "landscape",
   "theme_color": "orange",
@@ -21,7 +22,7 @@
       "name": "Curriculum Vitae",
       "short_name": "Suryo DwiJayanto",
       "description": "Curriculum Vitae Suryo DwiJayanto",
-      "url": "https://www.cusmedroid.ink/",
+      "url": "https://www.cusmedroid.ink/cv/suryodwijayanto/",
       "icons": [{ "src": "images/head.png", "sizes": "200x200" }]
     }
   ],
