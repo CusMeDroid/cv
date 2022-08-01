@@ -1,6 +1,6 @@
 {
   "lang": "en",
-  "dir": "ltr",
+  "dir": "auto",
   "name": "Curriculum Vitae Sahrul, Theme by CusMeDroid.",
   "short_name": "Sahrul",
   "icons": [
@@ -13,8 +13,8 @@
   "scope": "/",
   "id": "cv/sahrul/",
   "start_url": "https://www.cusmedroid.ink/",
-  "display": "fullscreen",
-  "orientation": "landscape",
+  "display": "standalone",
+  "orientation": "any",
   "theme_color": "violet",
   "background_color": "white",
   "shortcuts": [
