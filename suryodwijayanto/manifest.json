@@ -5,7 +5,7 @@
   "short_name": "Suryo DwiJayanto",
   "icons": [
     {
-      "src": "cv/suryodwijayanto/images/head.png",
+      "src": "images/head.png",
       "type": "image/png",
       "sizes": "200x200"
     }
