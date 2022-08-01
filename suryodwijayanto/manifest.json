@@ -1,6 +1,6 @@
 {
   "lang": "en",
-  "dir": "ltr",
+  "dir": "auto",
   "name": "Curriculum Vitae Suryo DwiJayanto, Theme by CusMeDroid.",
   "short_name": "Suryo DwiJayanto",
   "icons": [
@@ -14,7 +14,7 @@
   "id": "cv/suryodwijayanto/",
   "start_url": "https://www.cusmedroid.ink/",
   "display": "fullscreen",
-  "orientation": "landscape",
+  "orientation": "any",
   "theme_color": "orange",
   "background_color": "white",
   "shortcuts": [
