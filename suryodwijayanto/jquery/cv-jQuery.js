@@ -29,3 +29,16 @@ if ('mediaSession' in navigator) {
 
 /* Birthday */
 var birthday = new Date(1994, 06, 09);
+var today = new Date();
+var year = 0;
+if (today.getMonth() < birthday.getMonth()) {
+    year = 1;
+} else if ((today.getMonth() == birthday.getMonth()) && today.getDate() < birthday.getDate()) {
+    year = 1;
+}
+var age = today.getFullYear() - birthday.getFullYear() - year;
+
+if(age < 0){
+    age = 0;
+}
+document.getElementById('myold').innerHTML = age;
