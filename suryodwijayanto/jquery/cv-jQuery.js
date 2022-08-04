@@ -42,3 +42,4 @@ if(age < 0){
     age = 0;
 }
 document.getElementById('myold').innerHTML = age;
+console.log(age);
