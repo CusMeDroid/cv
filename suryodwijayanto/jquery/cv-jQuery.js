@@ -5,7 +5,7 @@ function submitFunc() {
     if (name.value < 1 || phone.value < 1 || subject.value < 1) {
         alert('Please fill out this field!');
     } else {
-        window.open('mailto:sahrulti12@gmail.com?subject='+name.value+', '+phone.value+'&body='+subject.value);
+        window.open('mailto:iyortml@gmail.com?subject='+name.value+', '+phone.value+'&body='+subject.value);
     }
 }
 
