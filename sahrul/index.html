@@ -214,13 +214,16 @@
             </a>
         </div>
 
-        <div class="header animate-bottom">
-            <div class="" align="center">
-                <div class="column-header"><a href="#" title="Home" class="bbtn"><i class="fa fa-home" aria-hidden="true"></i></a></div>
-                <div class="column-header"><a href="#collection" title="Collection" class="bbtn"><i class="fa fa-picture-o" aria-hidden="true"></i></a></div>
-                <div class="column-header"><a href="#like" title="Like" class="bbtn"><i class="fa fa-heart" aria-hidden="true"></i></a></div>
-                <div class="column-header" id='musicp2'><a title="Play" class="bbtn"><i class="fa fa-play" aria-hidden="true"></i></a></div>
-                <div class="column-header" id='musicpa2'><a title="Pause" class="bbtn"><i class="fa fa-pause" aria-hidden="true"></i></a></div>
+        <div class='header animate-bottom'>
+            <div class='me-bottom-bar' align='center'>
+                <a onclick='meHome()' title='Home' class='me-menu-item me-current'><i class='fa fa-home' aria-hidden='true'></i></a>
+                <a onclick='meCollect()' title='Collection' class='me-menu-item'><i class='fa fa-picture-o' aria-hidden='true' style='margin-left: -1px;'></i></a>
+                <a onclick='meLike()' title='Like' class='me-menu-item'><i class='fa fa-heart' aria-hidden='true' style='margin-left: -1px;'></i></a>
+                <a class='me-nav-indicator'></a>
+                <a title='Play/Pause' class='me-menu-item'>
+                    <i class='fa fa-play' aria-hidden='true' id='musicp2'></i>
+                    <i class='fa fa-pause' aria-hidden='true' style='margin-right: -2px;' id='musicpa2'></i>
+                </a>
             </div>
         </div>
 
