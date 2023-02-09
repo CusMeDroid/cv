@@ -10,7 +10,7 @@ function submitFunc() {
 }
 
 function mPdf() {
-    window.open('https://github.com/CusMeDroid/cv/raw/main/suryodwijayanto/suryodwijayanto.pdf');
+    window.open('https://github.com/CusMeDroid/cv/raw/main/suryodwijayanto/cv_suryodwijayanto.pdf');
 }
 
 /* Info/Notification Music Audio
